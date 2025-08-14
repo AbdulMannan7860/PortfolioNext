@@ -1,4 +1,5 @@
 import { Github, Linkedin, Mail, Heart } from "lucide-react";
+import logo from "@/assets/logo.jpg";
 
 export function Footer() {
   return (
@@ -9,12 +10,12 @@ export function Footer() {
           <div className="space-y-4">
             <div className="flex items-center gap-2">
               <div className="h-8 w-8 rounded-full bg-gradient-to-br from-primary to-secondary flex items-center justify-center">
-                <span className="text-sm font-bold text-white">AMS</span>
+                <img src={logo} alt="AMS Logo" />
               </div>
               <span className="text-xl font-bold">Abdul Mannan Siddiqui</span>
             </div>
             <p className="text-muted-foreground max-w-sm">
-              Full-stack developer passionate about creating innovative web solutions 
+              Full-stack developer passionate about creating innovative web solutions
               and building digital experiences that matter.
             </p>
           </div>
