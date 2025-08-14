@@ -1,11 +1,11 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { 
-  Code, 
-  Database, 
-  Globe, 
-  Smartphone, 
-  Zap, 
+import {
+  Code,
+  Database,
+  Globe,
+  Smartphone,
+  Zap,
   Shield,
   Users,
   Target
@@ -15,7 +15,7 @@ const skills = [
   {
     category: "Frontend",
     icon: Code,
-    skills: ["React", "Next.js", "TypeScript", "Tailwind CSS", "HTML/CSS"],
+    skills: ["React", "Next.js", "Tailwind CSS", "HTML/CSS", "JavaScript"],
     color: "text-blue-500"
   },
   {
@@ -29,12 +29,6 @@ const skills = [
     icon: Globe,
     skills: ["Vercel", "Netlify", "Git", "GitHub", "CI/CD"],
     color: "text-purple-500"
-  },
-  {
-    category: "Mobile",
-    icon: Smartphone,
-    skills: ["Responsive Design", "PWA", "Mobile Optimization", "Touch UX"],
-    color: "text-orange-500"
   }
 ];
 
@@ -76,24 +70,24 @@ export function About() {
                 Passionate Full-Stack Developer
               </h2>
               <p className="text-lg text-muted-foreground">
-                I'm a dedicated MERN stack developer with over 3 years of experience 
-                creating innovative web applications. My passion lies in building 
+                I'm a dedicated MERN stack developer with over 3 years of experience
+                creating innovative web applications. My passion lies in building
                 scalable, user-centric solutions that solve real-world problems.
               </p>
             </div>
 
             <div className="space-y-6">
               <p className="text-muted-foreground">
-                With expertise in React, Next.js, Node.js, and MongoDB, I specialize 
-                in developing modern web applications that are both performant and 
-                maintainable. I believe in writing clean, efficient code and staying 
+                With expertise in React, Next.js, Node.js, and MongoDB, I specialize
+                in developing modern web applications that are both performant and
+                maintainable. I believe in writing clean, efficient code and staying
                 up-to-date with the latest industry trends and best practices.
               </p>
-              
+
               <p className="text-muted-foreground">
-                When I'm not coding, you'll find me exploring new technologies, 
-                contributing to open-source projects, or sharing knowledge with 
-                the developer community. I'm always eager to learn and take on 
+                When I'm not coding, you'll find me exploring new technologies,
+                contributing to open-source projects, or sharing knowledge with
+                the developer community. I'm always eager to learn and take on
                 new challenges that push my skills forward.
               </p>
             </div>
@@ -123,7 +117,7 @@ export function About() {
             <div className="space-y-4">
               <h3 className="text-2xl font-semibold">Technical Expertise</h3>
               <p className="text-muted-foreground">
-                My skill set spans the entire development stack, from frontend 
+                My skill set spans the entire development stack, from frontend
                 interfaces to backend systems and deployment.
               </p>
             </div>

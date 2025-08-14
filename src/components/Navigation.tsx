@@ -35,19 +35,18 @@ export function Navigation() {
 
   return (
     <header
-      className={`sticky top-0 z-50 w-full transition-all duration-300 ${
-        isScrolled
-          ? "border-b bg-background/80 backdrop-blur-md supports-[backdrop-filter]:bg-background/60"
-          : "bg-transparent"
-      }`}
+      className={`sticky top-0 z-50 w-full transition-all duration-300 ${isScrolled
+        ? "border-b bg-background/80 backdrop-blur-md supports-[backdrop-filter]:bg-background/60"
+        : "bg-transparent"
+        }`}
     >
       <nav className="container mx-auto flex items-center justify-between px-4 py-4">
-        {/* Logo */}
         <a
           href="#home"
           className="text-xl font-bold bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent"
         >
-          AMS
+          <img src="assets/logo.jpg" alt="AMS Logo" className="w-10 h-10" />
+
         </a>
 
         {/* Desktop Navigation */}
