@@ -18,7 +18,7 @@ const experiences = [
       "Collaborated with cross-functional teams to deliver user-centric solutions",
       "Mentored junior developers and conducted code reviews"
     ],
-    technologies: ["React", "Next.js", "Node.js", "MongoDB", "TypeScript", "Tailwind CSS"],
+    technologies: ["React", "Next.js", "Node.js", "MongoDB", "Tailwind CSS"],
     icon: Building2
   },
   {
@@ -36,7 +36,7 @@ const experiences = [
       "Provided technical support and user training",
       "Contributed to UI/UX improvements and feature enhancements"
     ],
-    technologies: ["React", "Node.js", "MySQL", "Bootstrap", "JavaScript"],
+    technologies: ["React", "Node.js", "MongoDB", "Tailwind CSS", "JavaScript"],
     icon: Users
   }
 ];
@@ -64,7 +64,7 @@ export function Experience() {
             Professional Journey
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            My career path has been focused on building innovative solutions 
+            My career path has been focused on building innovative solutions
             and growing as a full-stack developer.
           </p>
         </div>
@@ -76,7 +76,7 @@ export function Experience() {
               <Building2 className="h-6 w-6 text-primary" />
               <h3 className="text-2xl font-semibold">Work Experience</h3>
             </div>
-            
+
             <div className="space-y-6">
               {experiences.map((exp, index) => (
                 <Card key={exp.id} className="relative border-0 bg-card shadow-lg">
@@ -105,7 +105,7 @@ export function Experience() {
                   </CardHeader>
                   <CardContent className="space-y-4">
                     <p className="text-muted-foreground">{exp.description}</p>
-                    
+
                     <div className="space-y-3">
                       <h4 className="font-semibold text-sm">Key Achievements:</h4>
                       <ul className="space-y-2">
@@ -168,7 +168,7 @@ export function Experience() {
             {/* Additional Skills */}
             <div className="space-y-6">
               <h3 className="text-2xl font-semibold">Core Competencies</h3>
-              
+
               <div className="grid gap-4">
                 <Card className="border-0 bg-gradient-to-br from-primary/10 to-primary/5">
                   <CardContent className="p-6">

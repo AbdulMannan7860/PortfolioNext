@@ -76,7 +76,7 @@ export function Footer() {
               © {new Date().getFullYear()} Abdul Mannan Siddiqui. All rights reserved.
             </p>
             <p className="text-sm text-muted-foreground flex items-center gap-1">
-              Made with <Heart className="h-4 w-4 text-red-500" /> using React & TypeScript
+              Made with using React & TypeScript
             </p>
           </div>
         </div>
