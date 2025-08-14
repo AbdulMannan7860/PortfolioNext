@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { ArrowRight, Download, Github, Linkedin, Mail } from "lucide-react";
+import image from "@/assets/image.jpg";
+import { ArrowRight, Github, Linkedin, Mail } from "lucide-react";
 
 export function Hero() {
   return (
@@ -72,7 +73,7 @@ export function Hero() {
                 <div className="relative space-y-6">
                   {/* Avatar placeholder */}
                   <div className="mx-auto h-32 w-32 rounded-full bg-gradient-to-br from-primary to-secondary p-1">
-                    <img src="/src/assets/image.jpg" alt="AMS Logo" className="h-full w-full rounded-full bg-background flex items-center justify-center" />
+                    <img src={image} alt="AMS Logo" className="h-full w-full rounded-full bg-background flex items-center justify-center" />
                   </div>
 
                   <div className="text-center space-y-2">

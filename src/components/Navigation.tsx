@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
+import logo from "@/assets/logo.jpg";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu, X } from "lucide-react";
 
@@ -45,7 +46,7 @@ export function Navigation() {
           href="#home"
           className="text-xl font-bold bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent"
         >
-          <img src="/src/assets/logo.jpg" alt="AMS Logo" className="w-10 h-10" />
+          <img src={logo} alt="AMS Logo" className="w-10 h-10" />
 
         </a>
 
