@@ -1,13 +1,11 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { 
-  Mail, 
-  Github, 
-  Linkedin, 
-  MapPin, 
-  Phone, 
-  Calendar,
+import {
+  Mail,
+  Github,
+  Linkedin,
+  MapPin,
   MessageSquare,
   Send
 } from "lucide-react";
@@ -16,8 +14,8 @@ const contactInfo = [
   {
     icon: Mail,
     title: "Email",
-    value: "abdulmannan.dev@gmail.com",
-    href: "mailto:abdulmannan.dev@gmail.com",
+    value: "webdo2016@gmail.com",
+    href: "mailto:webdo2016@gmail.com",
     color: "text-blue-500"
   },
   {
@@ -31,7 +29,7 @@ const contactInfo = [
     icon: Linkedin,
     title: "LinkedIn",
     value: "linkedin.com/in/abdulmannan-dev",
-    href: "https://linkedin.com/in/abdulmannan-dev",
+    href: "https://www.linkedin.com/in/abdul-mannan-8b1260279",
     color: "text-blue-600"
   },
   {
@@ -73,7 +71,7 @@ export function Contact() {
             Let's Work Together
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            I'm always open to discussing new opportunities, interesting projects, 
+            I'm always open to discussing new opportunities, interesting projects,
             or just having a chat about technology and development.
           </p>
         </div>
@@ -84,7 +82,7 @@ export function Contact() {
             <div className="space-y-4">
               <h3 className="text-2xl font-semibold">Get in Touch</h3>
               <p className="text-muted-foreground">
-                Feel free to reach out through any of these channels. I typically 
+                Feel free to reach out through any of these channels. I typically
                 respond within 24 hours during business days.
               </p>
             </div>
@@ -99,8 +97,8 @@ export function Contact() {
                       </div>
                       <div className="flex-1">
                         <h4 className="font-semibold">{contact.title}</h4>
-                        <a 
-                          href={contact.href} 
+                        <a
+                          href={contact.href}
                           target={contact.href.startsWith('http') ? '_blank' : '_self'}
                           rel={contact.href.startsWith('http') ? 'noopener noreferrer' : ''}
                           className="text-muted-foreground hover:text-foreground transition-colors"
@@ -126,7 +124,7 @@ export function Contact() {
                           <p className="font-medium">{slot.day}</p>
                           <p className="text-sm text-muted-foreground">{slot.time}</p>
                         </div>
-                        <Badge 
+                        <Badge
                           variant={slot.status === 'Available' ? 'default' : 'secondary'}
                           className="text-xs"
                         >
@@ -160,26 +158,26 @@ export function Contact() {
                 <div className="grid gap-4 sm:grid-cols-2">
                   <div className="space-y-2">
                     <label className="text-sm font-medium">Name</label>
-                    <input 
-                      type="text" 
+                    <input
+                      type="text"
                       placeholder="Your name"
                       className="w-full px-3 py-2 border border-input bg-background rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-primary"
                     />
                   </div>
                   <div className="space-y-2">
                     <label className="text-sm font-medium">Email</label>
-                    <input 
-                      type="email" 
+                    <input
+                      type="email"
                       placeholder="your@email.com"
                       className="w-full px-3 py-2 border border-input bg-background rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-primary"
                     />
                   </div>
                 </div>
-                
+
                 <div className="space-y-2">
                   <label className="text-sm font-medium">Subject</label>
-                  <input 
-                    type="text" 
+                  <input
+                    type="text"
                     placeholder="Project inquiry"
                     className="w-full px-3 py-2 border border-input bg-background rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-primary"
                   />
@@ -187,7 +185,7 @@ export function Contact() {
 
                 <div className="space-y-2">
                   <label className="text-sm font-medium">Message</label>
-                  <textarea 
+                  <textarea
                     placeholder="Tell me about your project..."
                     rows={4}
                     className="w-full px-3 py-2 border border-input bg-background rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-primary resize-none"
@@ -212,13 +210,13 @@ export function Contact() {
                   </a>
                 </Button>
                 <Button variant="outline" className="justify-start" asChild>
-                  <a href="mailto:abdulmannan.dev@gmail.com">
+                  <a href="mailto:webdo2016@gmail.com">
                     <Mail className="mr-2 h-4 w-4" />
                     Send Email
                   </a>
                 </Button>
                 <Button variant="outline" className="justify-start" asChild>
-                  <a href="https://linkedin.com/in/abdulmannan-dev" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.linkedin.com/in/abdul-mannan-8b1260279" target="_blank" rel="noopener noreferrer">
                     <Linkedin className="mr-2 h-4 w-4" />
                     Connect on LinkedIn
                   </a>
@@ -234,13 +232,13 @@ export function Contact() {
             <CardContent className="p-8">
               <h3 className="text-2xl font-bold mb-4">Ready to Start Your Project?</h3>
               <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
-                Let's discuss how I can help you build something amazing. 
-                Whether it's a new application, website redesign, or technical consultation, 
+                Let's discuss how I can help you build something amazing.
+                Whether it's a new application, website redesign, or technical consultation,
                 I'm here to help bring your vision to life.
               </p>
               <div className="flex gap-4 justify-center">
                 <Button size="lg" asChild>
-                  <a href="mailto:abdulmannan.dev@gmail.com">
+                  <a href="mailto:webdo2016@gmail.com">
                     <Mail className="mr-2 h-4 w-4" />
                     Start a Conversation
                   </a>
