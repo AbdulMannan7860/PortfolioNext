@@ -45,7 +45,7 @@ export function Navigation() {
           href="#home"
           className="text-xl font-bold bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent"
         >
-          <img src="assets/logo.jpg" alt="AMS Logo" className="w-10 h-10" />
+          <img src="/src/assets/logo.jpg" alt="AMS Logo" className="w-10 h-10" />
 
         </a>
 
